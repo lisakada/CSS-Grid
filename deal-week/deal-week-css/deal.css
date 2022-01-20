@@ -1,0 +1,11 @@
+.item
+    {
+      position:absolute;
+      z-index: 1;
+    }
+    .deal
+    {
+      position:absolute;
+      top: 260px;
+      z-index: 2;
+    }
