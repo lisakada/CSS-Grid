@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #9dcfa4;
+}
+
+.score-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 3rem;
+    font-family: "Lucida Console";
+}
+
+.score {
+    margin-left: auto;
+    margin-right: 12rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.game-board {
+    background-color: black;
+    margin: 2rem;
+    padding: 0.3rem;
+    padding-top: 3rem;
+}
+
+.red-blocks {
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(12, 1fr);
+}.square-item1{
+    background-color: rgb(201, 199, 199);
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 25px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: inset 0.1em 0.1em cornsilk;
+}
+
+.red-block {
+    background-color: red;
+}
+
+.yellow-block{
+    background-color: yellow;
+}
+
+.yellow-blocks{
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.block0{
+    background-color: black;
+
+}
+.green-block{
+    background-color: green;
+}
+
+.green-blocks{
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.blue-block{
+    background-color: blue;
+}
+
+.blue-blocks{
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+.square-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}
+.square-item {
+    background-color: rgb(201, 199, 199);
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+}
+.square-item1{
+    background-color: rgb(201, 199, 199);
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 25px;
+}
+
+.square-item2{
+    background-color: rgb(201, 199, 199);
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    margin-left:100px;
+}
+
+.black-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.black-item {
+    background-color: black;
+    padding: 100px;
+
+}
+.grey-block{
+    background-color:black;
+}
+
+.grey-blocks{
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+.block1{
+    background-color: grey;
+    height: 20px;
+}
